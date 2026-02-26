@@ -1,10 +1,10 @@
 # curl-calenda
 
-This repository provides a workflow to interact with the website calenda.it using the `curl` command, hence the name `curl calenda`
+Questo repository fornisce un'Azione per interagire con il sito web calenda.it utilizzando il comando `curl`. Da qui il nome `curl calenda`.
 
-## Features
-- Automatically fetches content from calenda.it
-
+## Caratteristiche
+- Recupera mensilmente i contenuti da calenda.it
+- Leggero e facile da usare
 
 ## Disclaimer
 This project is for educational purposes only and is not affiliated with calenda.it.

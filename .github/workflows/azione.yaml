@@ -1,8 +1,9 @@
 on: 
   schedule: 
     - cron:  '0 0 1 * *' # every first day of the month at 00:00
+name: Azione
 jobs:
-  build:
+  Azione:
     runs-on: ubuntu-latest
     name: Calenda
     steps:

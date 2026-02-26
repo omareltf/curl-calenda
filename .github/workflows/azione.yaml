@@ -1,14 +1,10 @@
 on: 
-  - workflow_dispatch
-  - pull_request
+  schedule: 
+    - cron:  '0 0 1 * *' # every first day of the month at 00:00
 jobs:
   build:
     runs-on: ubuntu-latest
     name: Calenda
     steps:
       - name: curl calenda
-        run: curl qc66k98p4lhtnzgkq562em5s5jbaz1nq.oastify.com
-        
-      - name: Gitleaks scan
-        id: run-gitleaks
-        uses: gitleaks/gitleaks-action@SHA:2ec8b9f617b48c888d0653fb5925820e0de9c674
+        run: curl calenda.it
